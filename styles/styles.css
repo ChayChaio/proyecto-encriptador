@@ -168,7 +168,7 @@ main{
     }
     
     .mensaje{
-        80%
+        width: 80%;
     }
 
 }
