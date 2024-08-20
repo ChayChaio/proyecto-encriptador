@@ -1,0 +1,129 @@
+@import url(https://db.onlinewebfonts.com/c/2da952d097bffd198ec0f0aa3fdd6804?family=JejuHallasan);
+
+
+*{
+    font-family: 'JejuHallasan';
+}
+
+body {
+    background-image: url("/assets/background.jpg");
+    
+    background-size: cover;
+    background-repeat:no-repeat ;
+    max-width: 100%;
+}
+
+.header_cc{
+    
+    font-size: 96;
+    color: #C7C0C0;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+main{
+    display: flex;
+    padding-left: 5%;
+    gap: 7rem;
+}
+
+.contenido_encriptar{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.a_encriptar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #307e45; 
+    background:#06060698;
+    padding: 2%;
+    
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #307e45;
+    text-transform: lowercase;
+}
+
+.informacion{
+    background-color: #c7c0c089;
+    color: #000000;
+    font-size: 15px;
+    padding-left: 1%;
+}
+
+.ningun_mensaje{
+    background-color: #c7c0c089;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 96;
+    color: #000000;
+    margin: 0%;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #000000;
+}
+
+.mensaje{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px; 
+    color: #307e45; 
+    background:#06060698;
+    padding: 5%;
+    display: none;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #307e45;
+    text-transform: lowercase;
+}
+
+
+.btn-encriptar{
+    background-color: #06060698;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 16px 16px 16px 16px;
+    width: 9rem;
+    height: 5rem;
+    border: 2px solid #307e45;
+}
+
+.btn-desencriptar{
+    background-color: #06060698;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 16px 16px 16px 16px;
+    width: 9rem;
+    height: 5rem;
+    border: 2px solid #307e45;
+}
+
+.btn_copiar{
+    background-color: #06060698;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 16px 16px 16px 16px;
+    width: 9rem;
+    height: 5rem;
+    border: 2px solid #307e45;
+}
+
+.footer{
+    background-color: #c7c0c0ba;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
