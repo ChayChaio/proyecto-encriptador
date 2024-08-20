@@ -1,12 +1,12 @@
-@import url(https://db.onlinewebfonts.com/c/2da952d097bffd198ec0f0aa3fdd6804?family=JejuHallasan);
+
 
 
 *{
-    font-family: 'JejuHallasan';
+    font-family:'Courier New', Courier, monospace;
 }
 
 body {
-    background-image: url("./assets/background.jpg");
+    background-image: url("../assets/background.jpg");
     
     background-size: cover;
     background-repeat:no-repeat ;
@@ -92,7 +92,7 @@ main{
     background-color: #06060698;
     color: #ffffff;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 16px 16px 16px 16px;
     width: 9rem;
     height: 5rem;
@@ -103,7 +103,7 @@ main{
     background-color: #06060698;
     color: #ffffff;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 16px 16px 16px 16px;
     width: 9rem;
     height: 5rem;
@@ -114,7 +114,7 @@ main{
     background-color: #06060698;
     color: #ffffff;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 16px 16px 16px 16px;
     width: 9rem;
     height: 5rem;
