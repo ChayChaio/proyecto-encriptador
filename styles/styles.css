@@ -167,6 +167,14 @@ main{
         padding-right: 8%;
     }
     
+    .ningun_mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding-right: 8%;
+    }
+
     .mensaje{
         width: 80%;
     }
@@ -205,6 +213,14 @@ main{
     }
 
     .section-mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding-right: 8%;
+    }
+
+    .ningun_mensaje{
         display: flex;
         flex-direction: column;
         align-items: center;
