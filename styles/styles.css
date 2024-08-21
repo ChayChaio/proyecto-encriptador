@@ -128,6 +128,51 @@ main{
     text-align: center;
 }
 
+@media (max-width: 1443px){
+        
+    .header_cc{
+        padding: 3%
+    }
+
+    body{
+        background-image: url("../assets/background1110.jpg");
+        background-image: 100% 100%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido_encriptar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding-right: 8%;
+        
+    }
+
+    .a_encriptar{
+        width: 80%;
+        
+    }
+
+    .section-mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        padding-right: 8%;
+    }
+    
+    .mensaje{
+        width: 80%;
+    }
+
+}
+
 @media (max-width: 1373px){
     
     .header_cc{
